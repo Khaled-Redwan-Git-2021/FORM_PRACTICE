@@ -5,8 +5,20 @@ nav li{
     list-style: none;
     margin-right: 20px;
 }
+nav li:hover{
+    background-color: lightgray
+}
 
 nav a{
     text-decoration: none;
     color: black;
+}
+
+nav ul > li:hover > ul{
+    display: block;
+}
+
+.drop{
+    display: none;
+    position: absolute;
 }
